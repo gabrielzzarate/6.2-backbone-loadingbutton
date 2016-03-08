@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>6 2 backbone loadingbutton</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <div class= "container"></div>
+      <div class="main-content col-md-2 col-md-offset-5">
+        <button type="button" class="btn btn-primary submit-button">
+            <!-- submit template populates here -->
+          <span>Submit</span></button>
+      </div>
+
+      <script id="submit-template" type = "text/x-handlebars-template">
+
+        <span> {{attributes.tag}} {{attributes.liked}}</span>
+      </script>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
