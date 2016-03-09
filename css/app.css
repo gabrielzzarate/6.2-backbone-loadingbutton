@@ -5769,4 +5769,29 @@ button.close {
 img {
   max-width: 100%; }
 
+.main-content {
+  padding: 15px;
+  position: relative;
+  top: 100px; }
+
+.submit-button {
+  padding: 10px 35px 10px 35px;
+  background-color: black;
+  color: gold; }
+  .submit-button:hover, .submit-button :active {
+    background-color: gold;
+    color: black; }
+
+.character-content {
+  position: relative;
+  top: 100px; }
+  .character-content ul {
+    list-style: none; }
+  .character-content li {
+    font-weight: bold; }
+
+.add-character-form {
+  position: relative;
+  top: -90px; }
+
 /*# sourceMappingURL=app.css.map */
